@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Scraper Tool</title>
+    <link rel="stylesheet" href="css/WSHomePage.css" />
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class ="navbar_container">
+            <a href="http://localhost:5000/" class="navbar_logo">Web Scraper Tool</a>
+            <ul class="navbar_menu">
+                <li class ="navbar_item">
+                    <a href="http://localhost:5000/amdDesktops" class="navbar_links">AMD Desktops</a>
+                </li>
+                <li class ="navbar_item">
+                    <a href="http://localhost:5000/amdLaptops" class="navbar_links">AMD Laptops</a>
+                </li>
+                <li class ="navbar_item">
+                    <a href="http://localhost:5000/intelDesktops" class="navbar_links">INTEL Desktops</a>
+                </li>
+                <li class ="navbar_item">
+                    <a href="http://localhost:5000/intelLaptops" class="navbar_links">INTEL Laptops</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="homeSection" id="home">
+        <h1>Top Rated AMD and INTEL CPU BUILDS</h1>
+    </div>
+    
+    <div class="brandSection" id="brand">
+
+        <div class = "amdSection">
+            <p><a href="http://localhost:5000/amd" class="amdLink">AMD<br>RYZEN</a></p>
+        </div>
+
+        <div class = "vertical"></div>
+
+        <div class = "intelSection">
+            <p><a href="http://localhost:5000/intel" class="intelLink">INTEL<br>Core</a></p>
+        </div>
+    </div>
+
+    <script src="FirstAPI.js"></script>
+</body>
+</html>
