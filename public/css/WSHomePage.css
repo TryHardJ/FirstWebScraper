@@ -63,7 +63,7 @@
     margin-right: 4rem;
 }
 .homeSection h1{
-    font-size: 4rem;
+    font-size: 2.7rem;
     text-transform: uppercase;
     display: flex;
     flex-direction: column;
@@ -74,12 +74,12 @@
     text-decoration: none;
     font-family: Arial, sans-serif;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .homeSection p{
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .brandSection {
@@ -128,7 +128,7 @@
 /*home, amd and intel section*/
 @media  screen and (max-width: 1608px) {
     .homeSection h1 {
-        font-size: 3rem;
+        font-size: 2.4rem;
     }
 
     .vertical {
@@ -156,7 +156,11 @@
 
 @media  screen and (max-width: 956px) {
     .homeSection h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .homeSection a, .homeSection p {
+        font-size: 0.7rem;
     }
 
     .vertical{
