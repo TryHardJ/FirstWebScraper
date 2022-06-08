@@ -9,5 +9,6 @@ inside the views folder.
 
 Video of the web scraper...
 
-https://user-images.githubusercontent.com/96887379/161352147-6ead7ab9-3919-4dfb-ba9b-47d789a4beb7.mp4
+https://user-images.githubusercontent.com/96887379/172718175-7a4367a6-6c1b-4846-932b-fe8bb0feb01d.mp4
+
 
